@@ -59,9 +59,8 @@ REST_AUTH_SERIALIZERS = {
 SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-#DEBUG = 'DEV' in os.environ
-ALLOWED_HOSTS = ['8000-mikemaroni9-drfapi-2slkerxdci7.ws-eu105.gitpod.io', 'localhost', 'https://drf-api9-921f22751f01.herokuapp.com/']
+DEBUG = 'DEV' in os.environ
+ALLOWED_HOSTS = ['8000-mikemaroni9-drfapi-2slkerxdci7.ws-eu105.gitpod.io', 'localhost', 'drf-api9-921f22751f01.herokuapp.com', ]
 
 # Application definition
 
